@@ -1,0 +1,144 @@
+.contact {
+   margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+  }
+
+  
+  .contact-title h1 {
+    
+    font-size: 80px;
+    font-weight: 600;
+    padding: 0px 30px;
+  }
+  .contact-title img{
+    position: relative;
+    height: 240px;
+    width: 240px;
+    margin-left: 120px
+  }
+  
+  .contact-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .contact-left {
+    flex: 1;
+    min-width: 300px;
+    max-width: 50%;
+    text-align: left;
+    padding: 20px;
+  }
+  
+  .contact-left h1 {
+    font-size: 80px;
+    font-weight: 700;
+    background: linear-gradient(270deg, #DF8908 10%, #B415ff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+  }
+  
+  .contact-left p {
+    max-width: 550px;
+    color: #d8d8d8;
+    font-size: 20px;
+    line-height: 35px;
+  }
+  
+  .contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: #D8D8D8;
+    font-size: 22px;
+  }
+  
+  .contact-detail {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .contact-detail img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    background-color: #fff;
+  }
+  
+  .contact-detail p {
+    font-size: 1rem;
+    color: white;
+  }
+  
+  .contact-right {
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    }
+  
+  .contact-right label {
+    font-size: 22px;
+    margin-top: 10px;
+    color:#767171 ;
+    font-weight: 500;
+  }
+  
+  .contact-right input,   
+  .contact-right textarea {
+    border: none;
+    width: 700px;
+    height: 78px;
+    width: 100%;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 4px;
+    color: #767171;
+    font-family: Outfit;
+    font-size: 20px;
+       
+  }
+  
+  .contact-right textarea {
+    resize: none;
+  }
+  
+  .contact-submit {
+    border: none;
+    color: white;
+    box-sizing: 50px;
+    font-size: 22px;
+    background: linear-gradient(270deg, #DF8908 10%, #B415ff 100%);
+    padding: 20px 60px;
+    margin-bottom:50px ;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .contact-submit:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .contact-section {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contact-left,
+    .contact-right {
+      max-width: 100%;
+    }
+  }
+  

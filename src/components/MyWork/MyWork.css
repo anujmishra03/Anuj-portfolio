@@ -1,0 +1,85 @@
+.mywork {
+    text-align: center;
+    padding: 50px;
+}
+
+.mywork-title h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.mywork-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.work-item {
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.work-item:hover {
+    transform: scale(1.05);
+}
+
+.work-image {
+    width: 100%;
+    border-radius: 10px;
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415ff 106.28%);
+    
+}
+
+.work-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: linear-gradient(90deg, #DA7C25 0%, #B923E1 100%);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.work-link:hover {
+    background: linear-gradient(90deg, #B923E1 0%, #DA7C25 100%);
+}
+.mywork-showmore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.mywork-showmore p {
+    color: white;
+}
+
+.mywork-showmore img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease-in-out;
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415ff 106.28%);
+    
+}
+
+/* Rotate arrow when expanded */
+.mywork-showmore:hover img {
+    transform: rotate(180deg);
+}
+.mywork-showmore:hover{
+    gap: 30px;
+    transition: 0.6s;
+}
