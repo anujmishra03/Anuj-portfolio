@@ -8,7 +8,7 @@ const Footer = () =>{
            <div className="footer-top-left">
             <img src='' alt=''/>
             <p>
-                I'm Forntend developer from ,India with working on it
+                I'm Forntend developer from India
             </p>
         </div> 
         <div className="footer-top-right">
