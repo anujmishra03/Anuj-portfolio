@@ -58,7 +58,8 @@ const Contact= () =>{
             <label htmlFor=''>Your Name</label>
             <input type='text' placeholder='Enter youre name' name='name'/>
             <label htmlFor=''>Your Email</label>
-            <input type='text' placeholder='Enter youre Email' name='Email'/>
+            <input type='email' placeholder='Enter your Email' name='email' required/>
+
             <label htmlFor=''>Write Your messge </label>
             <textarea name='message' cols='80' rows='10' placeholder='Enter your messge'></textarea>
             <button type='submit' className="contact-submit">Submit now</button>
